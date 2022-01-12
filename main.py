@@ -16,4 +16,6 @@ for cog in cogs:
         bot.load_extension(f"cogs.{cog}")
         print(f"{cog}.py loaded")
 
+bot.load_extension("jishaku")
+
 bot.run(os.getenv('APEX_LEGENDS_BOT_TOKEN'))
