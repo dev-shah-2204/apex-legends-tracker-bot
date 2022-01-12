@@ -7,4 +7,5 @@ Config Vars: </br>
 ```
 APEX_LEGENDS_API_KEY   - The API key
 APEX_LEGENDS_BOT_TOKEN - The bot's token
+ERROR_CHANNEL          - The ID of the channel where you want to review unhandled errors
 ```

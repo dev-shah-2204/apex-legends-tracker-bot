@@ -5,7 +5,8 @@ cogs = [
     'botstats',
     'developer',
     'apex',
-    'help'
+    'help',
+    'error_handler'
 ]
 
 bot = ApexTracker()
