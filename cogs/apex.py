@@ -20,6 +20,7 @@ class Apex(commands.Cog):
         result = response.json()
 
         if 'Error' in result:
+            print(result)
             await ctx.reply(f"Player with name `{origin_name}` was not found", mention_author=False)
             return
 

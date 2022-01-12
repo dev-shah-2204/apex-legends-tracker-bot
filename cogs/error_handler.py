@@ -144,3 +144,6 @@ class ErrorHandler(commands.Cog):
 def setup(bot):
     bot.add_cog(ErrorHandler(bot))
     print("ErrorHandler cog loaded")
+
+if __name__ == "__main__":
+    raise RuntimeError("Make sure you're running the main.py file, not the bot.py file")
