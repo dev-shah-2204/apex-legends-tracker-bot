@@ -1,0 +1,298 @@
+{
+  "global":
+  {
+    "name": "StatTrakDiamondSword",
+    "uid": 1006315050467,
+    "avatar": "",
+    "platform": "PC",
+    "level": 122,
+    "toNextLevelPercent": 80,
+    "internalUpdateCount": 2994,
+    "bans": {
+      "isActive": "False",
+      "remainingSeconds": 0,
+      "last_banReason": "COMPETITIVE_DODGE_COOLDOWN"
+    },
+    "rank": {
+      "rankScore": 1233,
+      "rankName": "Silver",
+      "rankDiv": 4,
+      "ladderPosPlatform": -1,
+      "rankImg": "https://api.mozambiquehe.re/assets/ranks/silver4.png",
+      "rankedSeason": "season11_split_2"
+    },
+    "arena": {
+      "rankScore": 0,
+      "rankName": "Unranked",
+      "rankDiv": 4,
+      "ladderPosPlatform": -1,
+      "rankImg": "https://api.mozambiquehe.re/assets/ranks/unranked4.png",
+      "rankedSeason": "arenas11_split_2"
+    },
+    "battlepass": {
+      "level": "-1",
+      "history": {
+        "season1": -1,
+        "season2": -1,
+        "season3": -1,
+        "season4": -1,
+        "season5": -1,
+        "season6": -1,
+        "season7": -1,
+        "season8": -1,
+        "season9": -1,
+        "season10": -1,
+        "season11": -1}
+    },
+    "badges": "None"
+  },
+  "realtime": {
+    "lobbyState": "open",
+    "isOnline": 0,
+    "isInGame": 1,
+    "canJoin": 0,
+    "partyFull": 0,
+    "selectedLegend": "Bangalore",
+    "currentState": "offline",
+    "currentStateSinceTimestamp": -1,
+    "currentStateAsText": "Offline"
+  },
+  "legends": {
+    "selected": {
+      "LegendName": "Bangalore",
+      "data": [
+        {
+          "name": "Special event kills",
+          "value": 1,
+          "key": "specialEvent_kills"
+        },
+        {
+          "name": "Special event wins",
+          "value": 0,
+          "key": "specialEvent_wins"
+        },
+        {
+          "name": "Creeping barrage damage",
+          "value": 238,
+          "key": "creeping_barrage_damage"
+        }
+      ],
+      "gameInfo": {
+        "skin": "Purgatory",
+        "skinRarity": "Rare",
+        "frame": "Rookie Card",
+        "frameRarity": "Common",
+        "pose": "With Pride",
+        "poseRarity": "Rare",
+        "intro": "Death is my language",
+        "introRarity": "Common",
+        "badges": [
+          {
+            "name": "Account Level",
+            "value": 123,
+            "category": "Account Badges"
+          },
+          {
+            "name": "None",
+            "value": 0,
+            "category": "Account Badges"
+          },
+          {
+            "name": "None",
+            "value": 0,
+            "category": "Account Badges"
+          }
+        ]
+      },
+      "ImgAssets":
+      {
+        "icon": "https://api.mozambiquehe.re/assets/icons/bangalore.png",
+        "banner": "https://api.mozambiquehe.re/assets/banners/bangalore.jpg"
+      }
+    },
+    "all": {
+      "Revenant":
+      {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/revenant.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/revenant.jpg"
+        }
+      },
+      "Crypto": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/crypto.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/crypto.jpg"
+        }
+      },
+      "Horizon": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/horizon.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/horizon.jpg"
+        }
+      }, "Gibraltar": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/gibraltar.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/gibraltar.jpg"
+        }
+      }, "Wattson": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/wattson.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/wattson.jpg"
+        }
+      }, "Fuse": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/fuse.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/fuse.jpg"
+        }
+      }, "Bangalore": {
+        "data": [
+          {
+            "name": "Creeping barrage damage", "value": 238, "key": "creeping_barrage_damage",
+            "rank": {
+              "rankPos": 101107,
+              "topPercent": 95.11
+            },
+            "rankPlatformSpecific": {
+              "rankPos": 78905,
+              "topPercent": 94.4
+            }
+          },
+          {
+            "name": "Special event kills",
+            "value": 1,
+            "key": "specialEvent_kills",
+            "rank": {
+              "rankPos": 564473,
+              "topPercent": 99.53
+            },
+            "rankPlatformSpecific": {
+              "rankPos": 401786,
+              "topPercent": 99.4
+            }
+          },
+          {
+            "name": "Special event wins",
+            "value": 0,
+            "key": "specialEvent_wins",
+            "rank": {
+              "rankPos": 139999,
+              "topPercent": 99.04
+            },
+            "rankPlatformSpecific": {
+              "rankPos": 95935,
+              "topPercent": 98.61
+            }
+          }
+        ],
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/bangalore.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/bangalore.jpg"
+        }
+      },
+      "Wraith": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/wraith.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/wraith.jpg"
+        }
+      },
+      "Octane": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/octane.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/octane.jpg"
+        }
+      },
+      "Bloodhound": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/bloodhound.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/bloodhound.jpg"
+        }
+      },
+      "Caustic": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/caustic.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/caustic.jpg"
+        }
+      },
+      "Lifeline": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/lifeline.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/lifeline.jpg"
+        }
+      },
+      "Pathfinder": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/pathfinder.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/pathfinder.jpg"
+        }
+      },
+      "Loba": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/loba.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/loba.jpg"
+        }
+      },
+      "Mirage":
+      {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/mirage.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/mirage.jpg"
+        }
+      },
+       "Rampart": {
+         "ImgAssets": {
+           "icon": "https://api.mozambiquehe.re/assets/icons/rampart.png",
+           "banner": "https://api.mozambiquehe.re/assets/banners/rampart.jpg"
+         }
+       },
+      "Valkyrie": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/valkyrie.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/valkyrie.jpg"
+        }
+      },
+      "Seer": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/seer.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/seer.jpg"
+        }
+      },
+      "Ash": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/ash.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/ash.jpg"
+        }
+      }
+    }
+  },
+  "mozambiquehere_internal": {
+    "isNewToDB": "False",
+    "claimedBy": "1641905365",
+    "APIAccessType": "BASIC",
+    "ClusterID": "4",
+    "rate_limit":
+    {"max_per_second": 3,
+      "current_req": "1"
+    },
+    "clusterSrv": "MAIN-CLUSTER"
+  },
+  "total": {
+    "creeping_barrage_damage":
+    {
+      "name": "Creeping barrage damage",
+      "value": 238
+    },
+    "specialEvent_kills":
+    {
+      "name": "Special event kills",
+      "value": 1
+    },
+    "specialEvent_wins": {
+      "name": "Special event wins",
+      "value": 0
+    },
+    "kd": {
+      "value": "-1",
+      "name": "KD"
+    }
+  }
+}
