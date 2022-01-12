@@ -16,4 +16,4 @@ for cog in cogs:
         bot.load_extension(f"cogs.{cog}")
         print(f"{cog}.py loaded")
 
-bot.run("OTMwNDI3MTIwNTg3NTMwMjkw.Yd1tyA.VHV6ECqLBTQWlRhXNaAFVfi0Nd0")
+bot.run(os.getenv('APEX_LEGENDS_BOT_TOKEN'))
