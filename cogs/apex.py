@@ -25,7 +25,6 @@ class Apex(commands.Cog):
             return
 
         r = result['global']
-        print(r)
         em = discord.Embed(
             title=f"Stats for {r['name']}",
             color=colors.a_red
