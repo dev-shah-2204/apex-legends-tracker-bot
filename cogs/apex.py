@@ -15,6 +15,7 @@ class Apex(commands.Cog):
 
 
     @command(name="profile")
+    @cooldown(1, 5, BucketType.user)
     async def get_player(self, ctx, origin_name):
         response = requests.get(url=f"https://api.mozambiquehe.re/bridge?version=5&player={origin_name}&platform=PC&auth={self.api_key}")
         result = response.json()
@@ -61,6 +62,7 @@ class Apex(commands.Cog):
 
 
     @command(name="crafting")
+    @cooldown(1, 5, BucketType.user)
     async def get_crafting_rotations(self, ctx):
         response = requests.get(f"https://api.mozambiquehe.re/crafting?&auth={self.api_key}")
         result = response.json()
