@@ -7,7 +7,7 @@ from discord.ext import commands
 class ApexTracker(commands.AutoShardedBot):
     def __init__(self):
         super().__init__(
-            command_prefix=">>",
+            command_prefix=commands.when_mentioned_or(">>"),
             intents=discord.Intents.all(),
             case_insensitive=True,
             allowed_mentions=discord.AllowedMentions(everyone=False), # (everyone:bool, users:bool, roles:bool, replied_user:bool)
@@ -18,6 +18,12 @@ class ApexTracker(commands.AutoShardedBot):
         print("^_^")
         print(f"Logged in as {self.user}")
         print(f"ID: {self.user.id}")
+        await self.change_presence(
+            activity=discord.Activity(
+                type=discord.ActivityType.listening,
+                name=">>help"
+            )
+        )
 
 
 if __name__ == "__main__":
